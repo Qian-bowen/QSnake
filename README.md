@@ -1,9 +1,10 @@
 # QSnake
 snake game with Qt
 
+**Qsnake is a snake game with basic functions and simple AI mode. Qt framework is used to realize the game.**
+
 # Qsnake设计文档
 
-作者：519021910581 钱博闻
 
 ## 整体设计思路
 
@@ -84,5 +85,3 @@ Canvas记录所有元素的信息，它是所有玩家共有的。
 * 程序异常行为
   * 单击按键后，时间间隔过短，无法显示游戏界面
   * 信号同时发生，槽函数堵塞
-
-对于这些问题，代码中要解决。
